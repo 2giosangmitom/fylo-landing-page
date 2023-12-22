@@ -2,6 +2,10 @@
 import TheNav from "../components/TheNav.vue";
 import Footer from "../components/Footer";
 import Intro from "../components/Intro";
+import TheFeatures from "../components/TheFeatures.vue";
+import Productive from "../components/Productive";
+import TheTestimonials from "../components/TheTestimonials.vue";
+import TheContact from "../components/TheContact.vue";
 ---
 
 <head>
@@ -14,15 +18,25 @@ import Intro from "../components/Intro";
 </head>
 
 <body>
-  <TheNav />
+  <header>
+    <TheNav />
+  </header>
+
   <main>
     <Intro />
+    <TheFeatures />
+    <Productive />
+    <TheTestimonials />
+    <TheContact />
   </main>
+
   <Footer />
 </body>
 
 <style>
-  * {
+  *,
+  *::before,
+  *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
