@@ -1,18 +1,23 @@
 {
-  "name": "fylo-landing-page",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.4.1",
-    "@astrojs/vue": "^4.0.8",
-    "astro": "^4.2.1",
-    "typescript": "^5.3.3",
-    "vue": "^3.4.15"
-  }
+	"name": "fylo-landing-page",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.4.1",
+		"@astrojs/vue": "^4.0.8",
+		"astro": "^4.2.1",
+		"typescript": "^5.3.3",
+		"vue": "^3.4.15"
+	},
+	"devDependencies": {
+		"prettier": "^3.2.4",
+		"prettier-plugin-astro": "^0.13.0"
+	}
 }
