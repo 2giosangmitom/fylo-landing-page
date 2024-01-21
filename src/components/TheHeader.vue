@@ -13,13 +13,9 @@ const navItems: { href: string; name: string }[] = [
 		</div>
 
 		<nav class="header__navigator">
-			<ul>
-				<li v-for="item in navItems">
-					<a :href="item.href">
-						{{ item.name }}
-					</a>
-				</li>
-			</ul>
+			<a v-for="item in navItems" :href="item.href">
+				{{ item.name }}
+			</a>
 		</nav>
 	</header>
 </template>
@@ -31,18 +27,27 @@ const navItems: { href: string; name: string }[] = [
 	padding: 2rem 3rem;
 }
 
+.header__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .header__navigator {
-	li {
-		display: inline;
-		margin: 0 0.5rem;
-		a {
-			letter-spacing: 1px;
-			color: $neutral-color-white;
-			text-decoration: none;
-			&:hover {
-				color: $accent-color-cyan;
-				transition-duration: 300ms;
-			}
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	a {
+		display: flex;
+		align-items: center;
+		height: 2rem;
+		width: 5rem;
+		justify-content: center;
+		color: $neutral-color-white;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+			font-weight: 600;
 		}
 	}
 }
