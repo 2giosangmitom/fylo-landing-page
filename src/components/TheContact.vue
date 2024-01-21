@@ -80,4 +80,34 @@
     }
   }
 }
+
+@media (max-width: 1280px) {
+  .contact__container {
+    width: 100%;
+    padding: 2.5rem 2rem;
+
+    form {
+      flex-direction: column;
+
+      input {
+        width: 80%;
+        margin: 0;
+      }
+
+      button {
+        width: 80%;
+        margin: 0;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .contact__text {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
 </style>

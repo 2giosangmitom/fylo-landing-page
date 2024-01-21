@@ -59,4 +59,33 @@ import stayProductive from '../assets/images/stay_productive.png';
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 1280px) {
+  #productive {
+    flex-direction: column;
+  }
+
+  .productive__img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .productive__content {
+    margin-top: 2rem;
+    padding: 0;
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .productive__content {
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+}
 </style>

@@ -52,4 +52,27 @@ import logo from '../assets/images/logo.svg';
     }
   }
 }
+
+@media (max-width: 1280px) {
+  #header {
+    padding: 2.5rem 2rem;
+  }
+
+  .header__logo {
+    img {
+      width: 120px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #header {
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  .header__navigator {
+    display: none;
+  }
+}
 </style>

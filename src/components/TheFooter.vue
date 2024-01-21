@@ -117,6 +117,9 @@ import email from '../assets/images/icon-email.svg';
 
 .contact__item {
   display: inline-flex;
+  &:last-child {
+    margin-top: 1rem;
+  }
   p {
     margin-left: 1rem;
   }
@@ -149,7 +152,7 @@ import email from '../assets/images/icon-email.svg';
   grid-area: socials;
   margin-left: auto;
   margin-right: 0;
-  display: inline-flex;
+  display: flex;
 }
 
 .socials__item {
@@ -160,6 +163,65 @@ import email from '../assets/images/icon-email.svg';
       transition-duration: 300ms;
       color: $accent-color-cyan;
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  #footer {
+    padding: 20rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__contact {
+    justify-content: center;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .footter__logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer__socials {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer__location {
+    justify-content: center;
+    text-align: justify;
+    margin: 0;
+    div {
+      height: 20px;
+      width: 15px;
+      margin: 0;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #footer {
+    padding-top: 25rem;
+  }
+}
+
+@media (max-width: 380px) {
+  #footer {
+    padding-top: 40rem;
   }
 }
 </style>

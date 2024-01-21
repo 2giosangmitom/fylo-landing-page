@@ -74,11 +74,28 @@ const testimonialItems: {
   display: flex;
   margin-top: 1rem;
   align-items: center;
+
   img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #testimonial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .testimonial__item {
+    margin: 0;
+    width: 80%;
+    &:not(:first-child) {
+      margin-top: 3.5rem;
+    }
   }
 }
 </style>

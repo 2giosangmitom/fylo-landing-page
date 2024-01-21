@@ -25,6 +25,28 @@ import illustrationIntro from '../assets/images/illustration-intro.png';
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.intro__content {
+  letter-spacing: 0.05rem;
+  text-align: center;
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-weight: 400;
+    max-width: 40rem;
+    font-size: 0.95rem;
+    margin: 1rem 0;
+    line-height: 1.7;
+  }
 
   button {
     border-radius: 5rem;
@@ -47,25 +69,22 @@ import illustrationIntro from '../assets/images/illustration-intro.png';
   }
 }
 
-.intro__content {
-  letter-spacing: 0.05rem;
-  text-align: center;
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  h1 {
-    font-size: 2rem;
+@media (max-width: 1280px) {
+  .intro__img {
+    img {
+      width: 100%;
+    }
   }
+}
 
-  p {
-    font-weight: 400;
-    max-width: 40rem;
-    font-size: 0.95rem;
-    margin: 1rem 0;
-    line-height: 1.7;
+@media (max-width: 640px) {
+  .intro__content {
+    h1 {
+      font-size: 20px;
+    }
+    button {
+      font-size: 15px;
+    }
   }
 }
 </style>

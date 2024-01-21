@@ -77,4 +77,21 @@ const featureItems: { image: string; title: string; desc: string }[] = [
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 1024px) {
+  #features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .features__item {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .features__item {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
 </style>
