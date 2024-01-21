@@ -4,9 +4,8 @@
       <div class="contact__text">
         <h2>Get early access today</h2>
         <p>
-          It only takes a minute to sign up and our free starter tier is
-          extremely generous. If you have any questions, our support team would
-          be happy to help you.
+          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions,
+          our support team would be happy to help you.
         </p>
       </div>
       <form>
@@ -68,11 +67,7 @@
       outline: none;
       border: none;
       padding: 10px 12px;
-      background-image: linear-gradient(
-        50deg,
-        $accent-color-cyan,
-        $accent-color-blue
-      );
+      background-image: linear-gradient(50deg, $accent-color-cyan, $accent-color-blue);
       transition: 0.6s;
       background-size: 200%;
       color: $neutral-color-white;

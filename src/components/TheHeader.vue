@@ -8,7 +8,7 @@ import logo from '../assets/images/logo.svg';
 </script>
 
 <template>
-  <header class="header">
+  <header id="header">
     <div class="header__logo">
       <img v-bind:src="logo.src" alt="logo" />
     </div>
@@ -22,7 +22,7 @@ import logo from '../assets/images/logo.svg';
 </template>
 
 <style scoped lang="scss">
-.header {
+#header {
   display: flex;
   justify-content: space-between;
   padding: 2rem 3rem;

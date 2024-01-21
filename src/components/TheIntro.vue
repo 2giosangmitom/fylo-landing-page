@@ -11,9 +11,8 @@ import illustrationIntro from '../assets/images/illustration-intro.png';
     <div class="intro__content">
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>
-        Fylo stores all your most important files in one secure location. Access
-        them wherever you need, share and collaborate with friends family, and
-        co-workers.
+        Fylo stores all your most important files in one secure location. Access them wherever you need, share and
+        collaborate with friends family, and co-workers.
       </p>
       <button>Get Started</button>
     </div>
@@ -33,11 +32,7 @@ import illustrationIntro from '../assets/images/illustration-intro.png';
     height: 3rem;
     width: 15rem;
     font-weight: 500;
-    background-image: linear-gradient(
-      50deg,
-      $accent-color-blue,
-      $accent-color-cyan
-    );
+    background-image: linear-gradient(50deg, $accent-color-blue, $accent-color-cyan);
     background-size: 150%;
     color: $neutral-color-white;
     transition: 300ms;
