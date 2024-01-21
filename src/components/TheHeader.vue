@@ -4,12 +4,13 @@ const navItems: { href: string; name: string }[] = [
 	{ href: '#testimonial', name: 'Team' },
 	{ href: '#', name: 'Sign In' },
 ];
+import logo from '../assets/images/logo.svg';
 </script>
 
 <template>
 	<header class="header">
 		<div class="header__logo">
-			<img src="../assets/images/logo.svg" alt="logo" />
+			<img v-bind:src="logo.src" alt="logo" />
 		</div>
 
 		<nav class="header__navigator">
