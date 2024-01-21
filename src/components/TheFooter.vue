@@ -221,7 +221,7 @@ import email from '../assets/images/icon-email.svg';
 
 @media (max-width: 380px) {
   #footer {
-    padding-top: 40rem;
+    padding-top: 20rem;
   }
 }
 </style>
