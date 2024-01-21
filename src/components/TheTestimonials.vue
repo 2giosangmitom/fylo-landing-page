@@ -1,3 +1,3 @@
 <template>
-  <section>Testimonials</section>
+	<section>Testimonials</section>
 </template>
