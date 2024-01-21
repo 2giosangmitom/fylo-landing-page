@@ -1,3 +1,3 @@
 <template>
-	<section>Contact</section>
+  <section>Contact</section>
 </template>
