@@ -1,0 +1,10 @@
+dist
+node_modules
+.git
+.gitignore
+.prettierignore
+.prettierrc
+flake.nix
+flake.lock
+Makefile
+*.md
