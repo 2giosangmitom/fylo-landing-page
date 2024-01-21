@@ -5,7 +5,7 @@
   - [Build Docker image from `Dockerfile`](#build-docker-image-from-dockerfile)
     - [Prerequisite](#prerequisite)
     - [Steps](#steps)
-  - [🧞 Commands](#🧞-commands)
+  - [🧞 Commands](#-commands)
 <!--toc:end-->
 
 ## Build Docker image from `Dockerfile`
