@@ -2,7 +2,7 @@
 
 ## Development Setup
 
-1. **Prerequisites**
+1. **Install prerequisites**
 
 - Node.js (20 or newer) installed: [https://nodejs.org/en/learn/getting-started/how-to-install-nodejs](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
 - pnpm package manager installed: [https://pnpm.io/installation](https://pnpm.io/installation)
@@ -14,21 +14,21 @@
 
 2. **Clone the repository:**
 
-```bash
-git clone https://github.com/2giosangmitom/fylo-landing-page.git
-```
+  ```bash
+  git clone https://github.com/2giosangmitom/fylo-landing-page.git
+  ```
 
 3. **Install dependencies:**
 
-```bash
-pnpm install
-```
+  ```bash
+  pnpm install
+  ```
 
 4. **Run the development server:**
 
-```bash
-pnpm dev
-```
+  ```bash
+  pnpm dev
+  ```
 
 This will start the development server and open the application in your default web browser at `http://localhost:4321`.
 
