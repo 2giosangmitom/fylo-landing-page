@@ -1,25 +1,18 @@
 {
   "name": "fylo-landing-page",
+  "private": true,
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "format": "prettier --write ."
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
-    "@astrojs/vue": "^4.0.9",
-    "@fontsource-variable/inter": "^5.0.17",
-    "astro": "^4.5.9",
-    "typescript": "^5.4.3",
-    "vue": "^3.4.21"
-  },
-  "devDependencies": {
-    "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
-    "sass": "^1.72.0"
+    "nuxt": "^3.11.1",
+    "sass": "^1.72.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   }
 }

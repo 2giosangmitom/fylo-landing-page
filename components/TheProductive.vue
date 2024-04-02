@@ -1,11 +1,8 @@
-<script setup lang="ts">
-import stayProductive from '../assets/images/stay_productive.png';
-</script>
 
 <template>
   <section id="productive">
     <div class="productive__img">
-      <img v-bind:src="stayProductive.src" />
+      <img src="~/assets/images/stay_productive.png" />
     </div>
 
     <div class="productive__content">
