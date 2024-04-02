@@ -2,7 +2,7 @@
 const testimonialItems: {
   content: string;
   reviewer: {
-    avatar: URL;
+    avatar: string;
     name: string;
     profession: string;
   };
@@ -11,7 +11,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: new URL("~/assets/images/profile-1.jpg", import.meta.url),
+      avatar: "~/assets/images/profile-1.jpg",
       name: "Satish Patel",
       profession: "Founder & CEO, Huddle",
     },
@@ -20,7 +20,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: new URL("~/assets/images/profile-2.jpg", import.meta.url),
+      avatar: "~/assets/images/profile-2.jpg",
       name: "Bruce McKenzie",
       profession: "Founder & CEO, Huddle",
     },
@@ -29,7 +29,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: new URL("~/assets/images/profile-3.jpg", import.meta.url),
+      avatar: "~/assets/images/profile-3.jpg",
       name: "Iva Boyd",
       profession: "Founder & CEO, Huddle",
     },
@@ -42,7 +42,10 @@ const testimonialItems: {
     <div class="testimonial__item" v-for="item in testimonialItems">
       <p>{{ item.content }}</p>
       <div class="testimonial__reviewer">
-        <img v-bind:src="item.reviewer.avatar.pathname" alt="avatar" />
+        <img
+          v-bind:src="item.reviewer.avatar.replace('~', '/_nuxt')"
+          alt="avatar"
+        />
         <div class="reviewer__info">
           <h4>{{ item.reviewer.name }}</h4>
           <p>{{ item.reviewer.profession }}</p>

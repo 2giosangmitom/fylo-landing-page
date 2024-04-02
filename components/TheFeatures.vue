@@ -27,7 +27,7 @@ const featureItems: { image: string; title: string; desc: string }[] = [
   <section id="features">
     <div class="features__item" v-for="item in featureItems">
       <div class="features__item__head">
-        <img v-bind:src="item.image" alt="feature" />
+        <img v-bind:src="item.image.replace('~', '/_nuxt')" alt="feature" />
       </div>
 
       <div class="features__item__body">
