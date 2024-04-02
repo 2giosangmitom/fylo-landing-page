@@ -2,6 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: `_nuxt/[name].[ext]`,
+        },
+      },
+    },
     css: {
       preprocessorOptions: {
         scss: {

@@ -13,12 +13,12 @@ const linksList = [
 <template>
   <footer id="footer">
     <div class="footer__logo">
-      <img src="~/assets/images/logo.svg" />
+      <img src="/images/logo.svg" />
     </div>
 
     <div class="footer__location">
       <div>
-        <img src="~/assets/images/icon-location.svg" />
+        <img src="/images/icon-location.svg" />
       </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -28,11 +28,11 @@ const linksList = [
 
     <div class="footer__contact">
       <div class="contact__item">
-        <img src="~/assets/images/icon-phone.svg" />
+        <img src="/images/icon-phone.svg" />
         <p>+1-543-123-4567</p>
       </div>
       <div class="contact__item">
-        <img src="~/assets/images/icon-email.svg" />
+        <img src="/images/icon-email.svg" />
         <p>example@fylo.com</p>
       </div>
     </div>

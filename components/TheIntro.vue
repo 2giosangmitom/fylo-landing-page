@@ -1,10 +1,7 @@
 <template>
   <section id="intro">
     <div class="intro__img">
-      <img
-        src="~/assets/images/illustration-intro.png"
-        alt="illustration intro"
-      />
+      <img src="/images/illustration-intro.png" alt="illustration intro" />
     </div>
 
     <div class="intro__content">

@@ -1,22 +1,22 @@
 <script setup lang="ts">
 const featureItems: { image: string; title: string; desc: string }[] = [
   {
-    image: "~/assets/images/access_anywhere.svg",
+    image: "/images/access_anywhere.svg",
     title: "Access your files, anywhere",
     desc: "The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.",
   },
   {
-    image: "~/assets/images/security.svg",
+    image: "/images/security.svg",
     title: "Security you can trust",
     desc: "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.",
   },
   {
-    image: "~/assets/images/collaboration.svg",
+    image: "/images/collaboration.svg",
     title: "Real-time collaboration",
     desc: "Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.",
   },
   {
-    image: "~/assets/images/any_file.svg",
+    image: "/images/any_file.svg",
     title: "Store any type of file",
     desc: "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
   },
@@ -27,7 +27,7 @@ const featureItems: { image: string; title: string; desc: string }[] = [
   <section id="features">
     <div class="features__item" v-for="item in featureItems">
       <div class="features__item__head">
-        <img v-bind:src="item.image.replace('~', '/_nuxt')" alt="feature" />
+        <img v-bind:src="item.image" alt="feature" />
       </div>
 
       <div class="features__item__body">
