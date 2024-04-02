@@ -1,41 +1,37 @@
 <script setup lang="ts">
-import profile1 from '../assets/images/profile-1.jpg';
-import profile2 from '../assets/images/profile-2.jpg';
-import profile3 from '../assets/images/profile-3.jpg';
-
 const testimonialItems: {
   content: string;
   reviewer: {
-    avatar: string;
+    avatar: URL;
     name: string;
     profession: string;
   };
 }[] = [
   {
     content:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: profile1.src,
-      name: 'Satish Patel',
-      profession: 'Founder & CEO, Huddle',
+      avatar: new URL("~/assets/images/profile-1.jpg", import.meta.url),
+      name: "Satish Patel",
+      profession: "Founder & CEO, Huddle",
     },
   },
   {
     content:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: profile2.src,
-      name: 'Bruce McKenzie',
-      profession: 'Founder & CEO, Huddle',
+      avatar: new URL("~/assets/images/profile-2.jpg", import.meta.url),
+      name: "Bruce McKenzie",
+      profession: "Founder & CEO, Huddle",
     },
   },
   {
     content:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: profile3.src,
-      name: 'Iva Boyd',
-      profession: 'Founder & CEO, Huddle',
+      avatar: new URL("~/assets/images/profile-3.jpg", import.meta.url),
+      name: "Iva Boyd",
+      profession: "Founder & CEO, Huddle",
     },
   },
 ];
@@ -46,7 +42,7 @@ const testimonialItems: {
     <div class="testimonial__item" v-for="item in testimonialItems">
       <p>{{ item.content }}</p>
       <div class="testimonial__reviewer">
-        <img :src="item.reviewer.avatar" />
+        <img v-bind:src="item.reviewer.avatar.pathname" alt="avatar" />
         <div class="reviewer__info">
           <h4>{{ item.reviewer.name }}</h4>
           <p>{{ item.reviewer.profession }}</p>

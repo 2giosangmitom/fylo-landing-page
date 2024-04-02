@@ -1,6 +1,0 @@
-*.lock
-*.nix
-Makefile
-pnpm-lock.yaml
-.dockerignore
-.gitignore
