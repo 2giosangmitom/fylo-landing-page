@@ -1,75 +1,64 @@
-# Nuxt 3 Minimal Starter
+# Fylo Dark Theme Landing Page - Frontend Mentor Solution
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my solution for the Fylo Dark Theme Landing Page challenge on Frontend Mentor, built using Nuxt.js 3.
 
-## Setup
+## Table of Contents
 
-Make sure to install the dependencies:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Installation](#installation)
 
-```bash
-# npm
-npm install
+## Introduction
 
-# pnpm
-pnpm install
+This project is a solution to the [Fylo Dark Theme Landing Page challenge](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) on Frontend Mentor. The challenge was to build a landing page for a file storage service with a dark theme. The solution is responsive and built using Nuxt.js 3, a progressive Vue.js framework.
 
-# yarn
-yarn install
+## Features
 
-# bun
-bun install
-```
+- Responsive design, ensuring compatibility across various devices and screen sizes.
+- Dark theme with visually appealing design elements.
+- Interactive elements such as hover effects for buttons.
+- Built-in form validation for the email input field.
 
-## Development Server
+## Technologies
 
-Start the development server on `http://localhost:3000`:
+- **Nuxt.js 3**: A Vue.js framework that allows for the creation of server-rendered Vue applications with ease.
+- **Vue.js**: A progressive JavaScript framework for building user interfaces.
+- **HTML5**: The latest version of HTML, used for structuring the web page.
+- **CSS3**: The latest version of CSS, used for styling the web page.
+- **JavaScript**: Used for implementing interactive features and form validation.
 
-```bash
-# npm
-npm run dev
+## Usage
 
-# pnpm
-pnpm run dev
+To view the live demo of the solution, visit [Live Demo](https://fylo-landing-page-ebon.vercel.app/)
 
-# yarn
-yarn dev
+To run the project locally, follow the installation instructions below.
 
-# bun
-bun run dev
-```
+## Installation
 
-## Production
+1. **Clone the repository:**
 
-Build the application for production:
+   ```bash
+   git clone https://github.com/2giosangmitom/fylo-landing-page.git
+   ```
 
-```bash
-# npm
-npm run build
+2. **Navigate to the project directory:**
 
-# pnpm
-pnpm run build
+   ```bash
+   cd fylo-landing-page
+   ```
 
-# yarn
-yarn build
+3. **Install dependencies:**
 
-# bun
-bun run build
-```
+   ```bash
+   pnpm install
+   ```
 
-Locally preview production build:
+4. **Start the development server:**
 
-```bash
-# npm
-npm run preview
+   ```bash
+   pnpm dev
+   ```
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+5. **Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the project locally.**
