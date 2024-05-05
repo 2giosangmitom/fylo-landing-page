@@ -63,7 +63,6 @@
     button {
       margin-left: 1rem;
       width: fit-content;
-      padding: 0 1rem;
       border-radius: 25px;
       outline: none;
       border: none;

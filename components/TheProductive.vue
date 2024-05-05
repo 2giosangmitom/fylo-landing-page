@@ -1,7 +1,7 @@
 <template>
   <section id="productive">
     <div class="productive__img">
-      <img src="/images/stay_productive.png" />
+      <img src="/images/stay_productive.png" alt="stay_productive" />
     </div>
 
     <div class="productive__content">
