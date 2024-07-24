@@ -9,7 +9,7 @@ const navItems: { href: string; name: string }[] = [
 <template>
   <header id="header">
     <div class="header__logo">
-      <img src="/images/logo.svg" alt="logo" />
+      <NuxtImg src="logo.svg" alt="logo" />
     </div>
 
     <nav class="header__navigator">

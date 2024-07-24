@@ -13,12 +13,12 @@ const linksList = [
 <template>
   <footer id="footer">
     <div class="footer__logo">
-      <img src="/images/logo.svg" alt="logo" />
+      <NuxtImg src="logo.svg" alt="logo" />
     </div>
 
     <div class="footer__location">
       <div>
-        <img src="/images/icon-location.svg" alt="location_icon" />
+        <NuxtImg src="icon-location.svg" alt="location_icon" />
       </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -28,11 +28,11 @@ const linksList = [
 
     <div class="footer__contact">
       <div class="contact__item">
-        <img src="/images/icon-phone.svg" alt="phone_icon" />
+        <NuxtImg src="icon-phone.svg" alt="phone_icon" />
         <p>+1-543-123-4567</p>
       </div>
       <div class="contact__item">
-        <img src="/images/icon-email.svg" alt="email_icon" />
+        <NuxtImg src="icon-email.svg" alt="email_icon" />
         <p>example@fylo.com</p>
       </div>
     </div>

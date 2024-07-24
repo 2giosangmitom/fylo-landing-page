@@ -1,6 +1,6 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   vite: {
     build: {
       rollupOptions: {
@@ -17,4 +17,11 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  image: {
+    dir: "assets/images",
+  },
+
+  modules: ["@nuxt/image"],
+  compatibilityDate: "2024-07-24",
 });

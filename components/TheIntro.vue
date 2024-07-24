@@ -1,7 +1,7 @@
 <template>
   <section id="intro">
     <div class="intro__img">
-      <img src="/images/illustration-intro.png" alt="illustration intro" />
+      <NuxtImg src="illustration-intro.png" alt="illustration intro" />
     </div>
 
     <div class="intro__content">
