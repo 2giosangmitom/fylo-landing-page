@@ -42,7 +42,7 @@ const testimonialItems: {
     <div class="testimonial__item" v-for="item in testimonialItems">
       <p>{{ item.content }}</p>
       <div class="testimonial__reviewer">
-        <NuxtImg :src="item.reviewer.avatar" alt="avatar" />
+        <NuxtImg :src="item.reviewer.avatar" alt="avatar" loading="lazy" />
         <div class="reviewer__info">
           <h4>{{ item.reviewer.name }}</h4>
           <p>{{ item.reviewer.profession }}</p>

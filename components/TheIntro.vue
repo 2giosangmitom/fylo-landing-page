@@ -1,7 +1,11 @@
 <template>
   <section id="intro">
     <div class="intro__img">
-      <NuxtImg src="illustration-intro.png" alt="illustration intro" />
+      <NuxtImg
+        src="illustration-intro.png"
+        alt="illustration intro"
+        loading="lazy"
+      />
     </div>
 
     <div class="intro__content">

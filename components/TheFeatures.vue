@@ -27,7 +27,7 @@ const featureItems: { image: string; title: string; desc: string }[] = [
   <section id="features">
     <div class="features__item" v-for="item in featureItems">
       <div class="features__item__head">
-        <NuxtImg :src="item.image" alt="feature" />
+        <NuxtImg :src="item.image" alt="feature" loading="lazy" />
       </div>
 
       <div class="features__item__body">

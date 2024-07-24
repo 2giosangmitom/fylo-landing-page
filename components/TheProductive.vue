@@ -1,7 +1,7 @@
 <template>
   <section id="productive">
     <div class="productive__img">
-      <NuxtImg src="stay_productive.png" alt="stay_productive" />
+      <NuxtImg src="stay_productive.png" alt="stay_productive" loading="lazy" />
     </div>
 
     <div class="productive__content">
