@@ -11,7 +11,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: "profile-1.jpg",
+      avatar: "/images/profile-1.jpg",
       name: "Satish Patel",
       profession: "Founder & CEO, Huddle",
     },
@@ -20,7 +20,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: "profile-2.jpg",
+      avatar: "/images/profile-2.jpg",
       name: "Bruce McKenzie",
       profession: "Founder & CEO, Huddle",
     },
@@ -29,7 +29,7 @@ const testimonialItems: {
     content:
       "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     reviewer: {
-      avatar: "profile-3.jpg",
+      avatar: "/images/profile-3.jpg",
       name: "Iva Boyd",
       profession: "Founder & CEO, Huddle",
     },

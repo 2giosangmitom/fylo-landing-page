@@ -2,7 +2,7 @@
   <section id="intro">
     <div class="intro__img">
       <NuxtImg
-        src="illustration-intro.png"
+        src="/images/illustration-intro.png"
         alt="illustration intro"
         loading="lazy"
       />

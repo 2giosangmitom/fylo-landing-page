@@ -11,11 +11,6 @@ export default defineNuxtConfig({
     },
   },
 
-  image: {
-    dir: "assets/images",
-    format: ["webp"],
-  },
-
   modules: ["@nuxt/image"],
   compatibilityDate: "2024-07-24",
 });
